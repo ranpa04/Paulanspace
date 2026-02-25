@@ -3,7 +3,7 @@ import { useState } from 'react'
 const INITIAL_FORM = {
   name: '',
   sku: '',
-  category: 'Electronics',
+  category: 'Snowboards',
   price: '',
   quantity: '',
   description: '',
@@ -72,7 +72,7 @@ export default function AddProductModal({ onClose, onSubmit, categories }) {
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="e.g. Wireless Mouse"
+                  placeholder="e.g. All-Mountain Snowboard 158cm"
                   className="w-full px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
@@ -83,7 +83,7 @@ export default function AddProductModal({ onClose, onSubmit, categories }) {
                   name="sku"
                   value={form.sku}
                   onChange={handleChange}
-                  placeholder="e.g. ELEC-099"
+                  placeholder="e.g. SB-010"
                   className="w-full px-3 py-2 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>

@@ -1,17 +1,19 @@
 const CATEGORY_STYLES = {
-  'Electronics': 'bg-blue-100 text-blue-700',
-  'Clothing': 'bg-purple-100 text-purple-700',
-  'Food': 'bg-green-100 text-green-700',
-  'Home & Garden': 'bg-orange-100 text-orange-700',
-  'Sports': 'bg-red-100 text-red-700',
+  'Snowboards':       'bg-cyan-100 text-cyan-700',
+  'Bindings':         'bg-blue-100 text-blue-700',
+  'Boots':            'bg-purple-100 text-purple-700',
+  'Helmets & Goggles':'bg-amber-100 text-amber-700',
+  'Outerwear':        'bg-indigo-100 text-indigo-700',
+  'Accessories':      'bg-emerald-100 text-emerald-700',
 }
 
 const CATEGORY_ICONS = {
-  'Electronics': '💻',
-  'Clothing': '👕',
-  'Food': '🛒',
-  'Home & Garden': '🌿',
-  'Sports': '🏃',
+  'Snowboards':       '🏂',
+  'Bindings':         '🔩',
+  'Boots':            '👢',
+  'Helmets & Goggles':'⛑️',
+  'Outerwear':        '🧥',
+  'Accessories':      '🎒',
 }
 
 function StockBadge({ quantity }) {
